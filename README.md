@@ -71,7 +71,7 @@ The textual information is combined into a single feature and transformed into v
 
 * TMDB 5000 Movies Dataset
 * TMDB 5000 Credits Dataset
-dataset link : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+* dataset link : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 ---
 
 ## ⚙️ How It Works
