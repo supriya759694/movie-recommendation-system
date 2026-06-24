@@ -47,9 +47,11 @@ selected_movie_name = st.selectbox(
 
 if st.button('Recommend'):
     recommended_movies, recommended_posters = recommend(selected_movie_name)
-    for movie, poster in zip(recommended_movies, recommended_posters):
-        st.write(movie)
-        st.image(poster)
-        
-        
+
+    cols = st.columns(5)
+
+    for i in range(5):
+        with cols[i]:
+            st.image(recommended_posters[i])
+            st.write(recommended_movies[i])
         
